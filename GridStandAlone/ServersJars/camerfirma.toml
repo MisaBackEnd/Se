@@ -1,0 +1,13 @@
+[node]
+detect-drivers = false
+[[node.driver-configuration]]
+max-sessions = 8
+display-name = "Firefox Camerfirma"
+webdriver-path="geckodriverpath"
+stereotype = "{\"browserName\": \"firefox\", \"browserVersion\": \"75.0\", \"platformName\": \"Linux\", \"moz:firefoxOptions\": {\"binary\": \" binario navegador \"}}"
+[[node.driver-configuration]]
+max-sessions = 8
+display-name = "Firefox Standard"
+webdriver-path="/usr/local/bin/geckodriver"
+stereotype = "{\"browserName\": \"firefox\", \"browserVersion\": \"102.0\", \"platformName\": \"Linux\", \"moz:firefoxOptions\": {\"binary\": \" binario navegador \"}}"
+

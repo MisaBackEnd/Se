@@ -1,0 +1,7 @@
+[node]
+detect-drivers = false
+[[node.driver-configuration]]
+max-sessions = 8
+display-name = "Firefox Camerfirma"
+webdriver-path="/opt/app/Drivers/geckodriver29"
+stereotype = "{\"browserName\": \"firefox\", \"browserVersion\": \"75.0\", \"platformName\": \"Linux\", \"moz:firefoxOptions\": {\"binary\": \" binario navegador \"}}"
